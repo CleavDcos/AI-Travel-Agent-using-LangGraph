@@ -1,0 +1,19 @@
+# FastAPI Server Requirements
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+gradio>=4.0.0
+
+# LangChain & LangGraph
+langchain>=0.1.0
+langgraph>=0.0.20
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# Optional: For better async support
+httpx>=0.24.0
+sse-starlette>=1.6.0
